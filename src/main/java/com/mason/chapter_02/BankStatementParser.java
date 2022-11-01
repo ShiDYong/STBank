@@ -25,5 +25,5 @@ public interface BankStatementParser {
      * @param lines
      * @return
      */
-    List<BankTransaction> parserLineForm(List<String> lines);
+    List<BankTransaction>  parserLineForm(List<String> lines);
 }
