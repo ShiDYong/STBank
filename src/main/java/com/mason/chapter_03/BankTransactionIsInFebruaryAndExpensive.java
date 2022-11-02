@@ -1,7 +1,5 @@
 package com.mason.chapter_03;
 
-import com.mason.chapter_02.BankTransaction;
-
 import java.time.Month;
 
 /**

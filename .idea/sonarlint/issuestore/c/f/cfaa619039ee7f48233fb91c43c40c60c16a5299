@@ -1,9 +1,0 @@
-
-g
-java:S1124"EReorder the modifiers to comply with the Java Language Specification.(±´ì¯úÿÿÿÿ8¯á²óÂ0
-U	java:S106"9Replace this use of System.out or System.err by a logger.(‘ÝŸ¹8±á²óÂ0
-Z	java:S106"9Replace this use of System.out or System.err by a logger.(±› óüÿÿÿÿ8±á²óÂ0
-^
-java:S1144("<Remove this unused private "calculateTotalAmountOld" method.(¯ŽÜÛüÿÿÿÿ8¸á²óÂ0
-W
-java:S11448"5Remove this unused private "selectInMonthOld" method.(¦–Ìßýÿÿÿÿ8¸á²óÂ0

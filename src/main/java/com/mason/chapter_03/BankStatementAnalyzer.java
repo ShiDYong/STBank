@@ -1,15 +1,13 @@
 package com.mason.chapter_03;
-
-
-import com.mason.chapter_03.*;
-
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
-import java.time.Month;
 import java.util.List;
 
+/**
+ * @author yongshi
+ */
 public class BankStatementAnalyzer {
     private static final String RESOURCES = "src/main/resources/";
 
@@ -24,7 +22,7 @@ public class BankStatementAnalyzer {
 
         final BankStatementProcessor bankStatementProcessor = new BankStatementProcessor(bankTransactions);
 
-        final SummaryStatistics summaryStatistics = bankStatementProcessor.summarizeTransactions();
+        final SummaryStatistics summaryStatistics = bankStatementProcessor.summaryStatistics();
 
         System.out.println(exporter.export(summaryStatistics));
 

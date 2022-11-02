@@ -13,6 +13,7 @@ public class BankStatementCSVParser implements BankStatementParser {
 
     private static final DateTimeFormatter DATE_PATTERN = DateTimeFormatter.ofPattern("dd-MM-yyyy");
 
+    @Override
     public BankTransaction parseFrom(final String line) {
         final String[] columns = line.split(",");
 
@@ -22,6 +23,7 @@ public class BankStatementCSVParser implements BankStatementParser {
         return new BankTransaction(date, amount, columns[2]);
     }
 
+    @Override
     public List<BankTransaction> parseLinesFrom(final List<String> lines) {
         return lines.stream().map(this::parseFrom).collect(toList());
     }

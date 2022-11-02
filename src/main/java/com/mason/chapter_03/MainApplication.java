@@ -12,7 +12,7 @@ public class MainApplication {
                 = new BankStatementAnalyzer();
 
         final BankStatementParser bankStatementParser
-                = new BankStatementCSVParser();
+                = new com.iteratrlearning.shu_book.chapter_03.BankStatementCSVParser();
 
         final Exporter exporter = new HtmlExporter();
 
