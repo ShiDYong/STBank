@@ -19,7 +19,7 @@ public class DateTest {
      * 显示JDK中日期：CST、GMT、本地时间的显示
      */
     @Test
-    public void test01(){
+    public void test01() {
         Date cuurDate = new Date();
         //显示的标准的UTC时间：CST就代表了偏移量+0800）
         System.out.println(cuurDate.toString());
@@ -33,7 +33,7 @@ public class DateTest {
      * 如何实现通过北京时间转换为纽约时间
      */
     @Test
-    public void test02(){
+    public void test02() {
         //设置日期的显示格式
         String patternDate = "yyyy-MM-dd- HH:mm:ss";
         //获取当前的北京时间
@@ -56,7 +56,6 @@ public class DateTest {
         }
 
 
-
     }
 
     /**
@@ -71,7 +70,7 @@ public class DateTest {
      * 运维设置方式：将操作系统主机时区设置为北京时区，这是推荐方式，可以完全对开发者无感，也方便了运维统一管理
      */
     @Test
-    public void test03(){
+    public void test03() {
         System.out.println(TimeZone.getTimeZone("GMT+08:00").getID());
         System.out.println(TimeZone.getDefault().getID());
         // 纽约时间，值得注意的是，这里只能用GMT+08:00，而不能用UTC+08:00
@@ -152,8 +151,6 @@ public class DateTest {
 
 
     }
-
-
-
-
 }
+
+

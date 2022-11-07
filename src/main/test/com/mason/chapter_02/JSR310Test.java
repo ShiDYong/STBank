@@ -4,6 +4,8 @@ import org.junit.jupiter.api.Test;
 
 import java.time.*;
 import java.time.format.DateTimeFormatter;
+import java.time.format.FormatStyle;
+import java.util.Locale;
 
 /**
  * JDK1.8后的日期和时间API常用的方法测试
@@ -77,6 +79,7 @@ public class JSR310Test {
         //相差小时
         Duration duration = Duration.between(now.toLocalTime(), after.toLocalTime());
         System.out.println("相差小时的数：" + duration.toHours());
+
     }
 
     /**
@@ -84,5 +87,43 @@ public class JSR310Test {
      */
     @Test
     public void test04(){
+        LocalDateTime now = LocalDateTime.now(ZoneId.systemDefault());
+        System.out.println("格式化输出：" + DateTimeFormatter.ofLocalizedDateTime(FormatStyle.SHORT,FormatStyle.SHORT).format(now));
+        String dateTimeStrParam = "2022-11-01 10:30:00";
+        System.out.println("解析后输出：" + LocalDateTime.parse(dateTimeStrParam,DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss", Locale.US)));
+
+    }
+
+    /**
+     * OffsetDateTime是一个带有偏移量的日期时间类型。
+     * 存储有精确到纳秒的日期时间，以及偏移量。
+     * 可以简单理解为 OffsetDateTime = LocalDateTime + ZoneOffset
+     * OffsetDateTime、ZonedDateTime和Instant它们三都能在时间线上以纳秒精度存储一个瞬间（请注意：LocalDateTime是不行的），
+     * 也可理解某个时刻。OffsetDateTime和Instant可用于模型的字段类型，
+     * 因为它们都表示瞬间值并且还不可变，所以适合网络传输或者数据库持久化
+     * ZonedDateTime不适合网络传输/持久化，因为即使同一个ZoneId时区，不同地方获取到瞬时值也有可能不一样
+     */
+    @Test
+    public void test05(){
+        OffsetDateTime max = OffsetDateTime.MAX;
+        OffsetDateTime min = OffsetDateTime.MIN;
+        System.out.println("OffsetDate的最大值：" + max);
+        System.out.println("OffsetDate的最小值：" + min);
+        System.out.println(max.getOffset()+"-"+max.getYear()+"-" + max.getMonthValue()+"-" + max.getDayOfMonth());
+        System.out.println(max.getOffset()+"-"+min.getYear()+"-" + min.getMonthValue()+"-" + min.getDayOfMonth());
+
+
+        System.out.println("当前位置偏移量的本地时间：" + OffsetDateTime.now());
+        System.out.println("偏移量-4的本地时间：" + OffsetDateTime.of(LocalDateTime.now(),ZoneOffset.of("-4")));
+        System.out.println("纽约时间的本地时间：" + OffsetDateTime.now(ZoneId.of("America/New_York")));
+
+        OffsetDateTime now = OffsetDateTime.now(ZoneId.systemDefault());
+        System.out.println("格式化输出（本地化输出，中文环境）：" + DateTimeFormatter.ofLocalizedDateTime(FormatStyle.SHORT, FormatStyle.SHORT).format(now));
+
+        String dateTimeStrParam = "2021-01-17T18:00:00+07:00";
+        System.out.println("解析后输出：" + OffsetDateTime.parse(dateTimeStrParam));
+
+        Instant instant = Instant.now();
+        System.out.println("instant = " + instant);
     }
 }
