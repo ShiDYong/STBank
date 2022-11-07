@@ -2,7 +2,6 @@ package com.mason.chapter_02;
 
 import java.util.Map;
 
-import static com.sun.xml.internal.ws.spi.db.BindingContextFactory.LOGGER;
 
 /**
  * @author yongshi

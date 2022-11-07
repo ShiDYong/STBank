@@ -1,0 +1,45 @@
+
+r	java:S117O"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(†´‹Õÿÿÿÿÿ8£·ËÌÂ0
+m	java:S117R"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ôÔ‡º8¤·ËÌÂ0
+r	java:S117["QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(†˜Šúÿÿÿÿ8¥·ËÌÂ0
+r	java:S117]"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ãº¿äüÿÿÿÿ8¥·ËÌÂ0
+S
+java:S1854<"6Remove this useless assignment to local variable "p6".(ÀÖ³Â8À·ËÌÂ0
+S
+java:S18543"6Remove this useless assignment to local variable "p5".(â¦«Ú8Á·ËÌÂ0
+T	java:S106"9Replace this use of System.out or System.err by a logger.(î½ê\8Â·ËÌÂ0
+U	java:S106"9Replace this use of System.out or System.err by a logger.(Ãû¤¯8Ã·ËÌÂ0
+9
+java:S1116"Remove this empty statement.(ÔÅ†­8Ã·ËÌÂ0
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(×ÄŠıÿÿÿÿ8Å·ËÌÂ0
+Z	java:S106 "9Replace this use of System.out or System.err by a logger.(õÂ€ïüÿÿÿÿ8Å·ËÌÂ0
+U	java:S106""9Replace this use of System.out or System.err by a logger.(Ğ®‚Ù8Æ·ËÌÂ0
+U	java:S106$"9Replace this use of System.out or System.err by a logger.(µ€Š8Æ·ËÌÂ0
+U	java:S106&"9Replace this use of System.out or System.err by a logger.(‘±Á8Ç·ËÌÂ0
+Z	java:S106("9Replace this use of System.out or System.err by a logger.(€âé¾ùÿÿÿÿ8Ç·ËÌÂ0
+Z	java:S106*"9Replace this use of System.out or System.err by a logger.(ÆËÜéúÿÿÿÿ8È·ËÌÂ0
+>
+java:S1116-"Remove this empty statement.(Õİºùÿÿÿÿ8È·ËÌÂ0
+U	java:S106/"9Replace this use of System.out or System.err by a logger.(¾ˆÛ8É·ËÌÂ0
+D
+java:S14813"'Remove this unused "p5" local variable.(â¦«Ú8Ê·ËÌÂ0
+U	java:S1065"9Replace this use of System.out or System.err by a logger.(õíÉ…8Ê·ËÌÂ0
+Z	java:S1068"9Replace this use of System.out or System.err by a logger.(Ô¸õ¤øÿÿÿÿ8Ë·ËÌÂ0
+D
+java:S1481<"'Remove this unused "p6" local variable.(ÀÖ³Â8Ë·ËÌÂ0
+Z	java:S106>"9Replace this use of System.out or System.err by a logger.(ñˆŒ¡ûÿÿÿÿ8Ì·ËÌÂ0
+T	java:S106C"9Replace this use of System.out or System.err by a logger.(ÊØ§8Ì·ËÌÂ0
+Z	java:S106L"9Replace this use of System.out or System.err by a logger.(„¦Úºúÿÿÿÿ8Í·ËÌÂ0
+Z	java:S106M"9Replace this use of System.out or System.err by a logger.(†ÎÒ şÿÿÿÿ8Í·ËÌÂ0
+Z	java:S106P"9Replace this use of System.out or System.err by a logger.(¸ùùÙúÿÿÿÿ8Î·ËÌÂ0
+Z	java:S106S"9Replace this use of System.out or System.err by a logger.(ÊËÁÎıÿÿÿÿ8Î·ËÌÂ0
+Z	java:S106X"9Replace this use of System.out or System.err by a logger.(¢™›ãúÿÿÿÿ8Ï·ËÌÂ0
+Z	java:S106Y"9Replace this use of System.out or System.err by a logger.(ç¡Ïûÿÿÿÿ8Ï·ËÌÂ0
+U	java:S106^"9Replace this use of System.out or System.err by a logger.(˜÷è8Ğ·ËÌÂ0
+U	java:S106a"9Replace this use of System.out or System.err by a logger.(ú”´Ù8Ğ·ËÌÂ0
+Z	java:S106b"9Replace this use of System.out or System.err by a logger.(æğµ–ıÿÿÿÿ8Ğ·ËÌÂ0
+U	java:S106c"9Replace this use of System.out or System.err by a logger.(‘ÊŞÚ8Ñ·ËÌÂ0
+i
+java:S1871p"MThis branch's code block is the same as the block for the branch on line 108.(©Çò78Ó·ËÌÂ0
+j
+java:S1871n"MThis branch's code block is the same as the block for the branch on line 108.(â®Ì8Ó·ËÌÂ0
