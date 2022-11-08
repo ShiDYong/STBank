@@ -27,8 +27,6 @@ f
 6src/main/java/com/mason/chapter_02/EnumsAndSwitch.java,9/b/9be0954e1f75c10725dc526fe2f2afd0b221b077
 d
 4src/main/java/com/mason/chapter_03/HtmlExporter.java,8/f/8f114249a0477df7f42c8b502afb361df39aa3c4
-7
-pom.xml,4/4/442292b8a7efeabbe4cc176709b833b1792140ec
 i
 9src/main/java/com/mason/chapter_03/SummaryStatistics.java,8/1/8183391187985ea8e8efe35ebd56ebac8cbdf245
 k
