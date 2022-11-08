@@ -1,16 +1,10 @@
 
-O
-src/main/webapp/WEB-INF/web.xml,2/e/2e22b6edd746fa3dc40ad7276c87c8d87d72a392
-^
-.src/main/webapp/WEB-INF/applicationContext.xml,0/9/098550351661f776bec95040b2d50042c4599987
 q
 Asrc/main/java/com/mason/chapter_02/BankStatementCSVParserOld.java,f/1/f177d42f26a3e4fe591572511b44928d55c9d935
 u
 Esrc/main/java/com/mason/chapter_02/BandTransactionAnalyzerSimple.java,8/5/85d900dd51b65eb14a8113224756c9074cb5804b
 g
 7src/main/java/com/mason/chapter_02/MainApplication.java,a/b/abadff83795b103189b518983189fd3065b4140d
-r
-Bsrc/main/test/com/mason/chapter_02/BankStatementCSVParserTest.java,0/4/04d14c6ecac0c404e363ea981b36fe8ff1dc1c79
 b
 2src/main/java/com/mason/chapter_02/SystemType.java,d/b/db41c9dc5214e51fb345d2dd91d72d7685762aaa
 e
@@ -53,3 +47,15 @@ p
 Osrc/main/java/com/mason/chapter_03/BankTransactionIsInFebruaryAndExpensive.java,5/8/58a2942c476e50cf4339ae4c0231061f71c54f17
 n
 >src/main/java/com/mason/chapter_02/BankStatementProcessor.java,8/9/89aeee00ea9982fbc5dc3ed2ad56f5512fd4688c
+^
+.src/main/webapp/WEB-INF/applicationContext.xml,0/9/098550351661f776bec95040b2d50042c4599987
+]
+-src/main/java/com/mason/chapter_04/Query.java,d/1/d10166b69a2cfed1c97fa2c6be8a9aed39013b9e
+h
+8src/main/java/com/mason/chapter_04/ReporterImporter.java,3/5/359505859ff6d2681a67d22990bd85e4188ae63e
+`
+0src/main/java/com/mason/chapter_04/TextFile.java,d/a/daef846ffeb35cc01d4170945984beb35c8cc429
+f
+6src/main/java/com/mason/chapter_04/ImagerImporter.java,b/c/bc1d98a9651e30af6fe401d948cb37344acaa432
+p
+@src/main/java/com/mason/chapter_04/DocumentManagementSystem.java,b/5/b51791123a9673465fbe47b7be89210dd167c381
