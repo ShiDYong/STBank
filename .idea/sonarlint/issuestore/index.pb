@@ -5,8 +5,6 @@ u
 Esrc/main/java/com/mason/chapter_02/BandTransactionAnalyzerSimple.java,8/5/85d900dd51b65eb14a8113224756c9074cb5804b
 g
 7src/main/java/com/mason/chapter_02/MainApplication.java,a/b/abadff83795b103189b518983189fd3065b4140d
-b
-2src/main/java/com/mason/chapter_02/SystemType.java,d/b/db41c9dc5214e51fb345d2dd91d72d7685762aaa
 e
 5src/main/java/com/mason/chapter_02/MethodsOfPath.java,c/3/c3d7a2c22a3446375f5699ad0a835613425638e6
 e
@@ -59,3 +57,15 @@ f
 6src/main/java/com/mason/chapter_04/ImagerImporter.java,b/c/bc1d98a9651e30af6fe401d948cb37344acaa432
 p
 @src/main/java/com/mason/chapter_04/DocumentManagementSystem.java,b/5/b51791123a9673465fbe47b7be89210dd167c381
+r
+Bsrc/main/test/com/mason/chapter_02/BankStatementCSVParserTest.java,0/4/04d14c6ecac0c404e363ea981b36fe8ff1dc1c79
+`
+0src/main/test/com/mason/chapter_02/DateTest.java,5/e/5e806ec2d167db507fe8f037c9c47697fba2fbb1
+b
+2src/main/test/com/mason/chapter_02/JSR310Test.java,1/9/19acb7ea8876fdea377bce5cd9e4f3454bde892d
+O
+src/main/webapp/WEB-INF/web.xml,2/e/2e22b6edd746fa3dc40ad7276c87c8d87d72a392
+g
+7src/main/java/com/mason/chapter_04/InvoiceImporter.java,0/3/038dbad6b1a8fe2aa6f40d8fe8cb4d7de6958b61
+b
+2src/main/java/com/mason/chapter_02/SystemType.java,d/b/db41c9dc5214e51fb345d2dd91d72d7685762aaa
